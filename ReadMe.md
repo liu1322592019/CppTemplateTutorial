@@ -940,6 +940,7 @@ void foo()
 // 首先，要写出模板的一般形式（原型）
 template <typename T> class AddFloatOrMulInt
 {
+public:
     static T Do(T a, T b)
     {
         // 在这个例子里面一般形式里面是什么内容不重要，因为用不上
